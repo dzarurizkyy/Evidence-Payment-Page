@@ -1,0 +1,474 @@
+body
+{  
+ background-image: url("UI Design/Background\ Cinema\ Website.png"); 
+ background-size: 1280px;
+ background-repeat: no-repeat;
+}
+
+/* Navigation Bar */
+table
+{
+    padding: 18px;
+}
+
+#logo
+{
+    width: 40px;
+    height: 34px;;
+    display: inline;
+}
+
+.navbar1
+{
+    padding-left: 10px;
+    display: inline;
+    font-family: 'Poppins ExtraBold';
+    font-size: 24px;
+    color: white;
+}
+
+.delete
+{
+    opacity: 0;
+}
+
+.navbar2
+{
+    color:white;
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins Medium';
+}
+
+#titleBar
+{
+    color: rgba(253, 156, 67, 70%);
+}
+
+/* Section payment */
+#section
+{
+    color: white;
+    font-family: "Poppins Medium";
+}
+
+#title1
+{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#leftArrow
+{
+    padding-left: 26px;
+    width: 14px;
+    height: 14px;
+    display: inline;
+}
+
+#subtitle1
+{
+    display: inline;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Cover Thumbnail Movies */
+#beast
+{
+    margin-top: 30px;
+    margin-left: 84px;
+    width: 1100px;
+    height: 300px;
+    border: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+}
+
+#titleMovies
+{
+    position: absolute;
+    color: white;
+    font-family: "Poppins Semibold";
+    font-weight: 300;
+    top: 436px;
+    left: 126px;
+    letter-spacing: 2px;
+}
+
+.rate
+{
+    position: absolute;
+    width: 16px;
+    top: 484px;
+}
+
+#rate1
+{
+    left: 126px;
+}
+
+#rate2
+{
+    left: 148px;
+}
+
+#rate3
+{
+    left: 170px;
+}
+
+#rate4
+{
+    left: 192px;
+}
+
+#titleRate
+{
+    position: absolute;
+    top: 484px;
+    left: 216px;
+    color: rgb(255, 255, 255, 60%);
+    font-family: "Poppins Medium";
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#director
+{
+    position: absolute;
+    font-family: "Poppins Regular";
+    font-weight: 100;
+    color: rgb(255, 255, 255, 80%);
+    top: 500px;
+    left: 128px;
+    font-size: 12px;
+}
+
+/* Payment */
+#content
+{
+    margin-left: 84px;
+    margin-right: 80px;
+    position: absolute;
+    top: 540px;
+}
+
+#backgroundForm
+{
+    position: relative;
+    width: 1100px;
+    height: 904px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#cinemaLogo
+{
+    position: absolute;
+    top: 42px;
+    left: 60px;
+    width: 74px;
+    border-radius: 100px;
+}
+
+.formInput
+{
+    position: absolute;
+    font-family: "Poppins SemiBold";
+    color: rgb(97, 86, 86, 70%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#cinemaLocation
+{
+    top: 16px;
+    left: 188px;
+}
+
+.formOutput
+{
+    position: absolute;
+    font-family: "Poppins Medium";
+    color: rgb(0, 0, 0, 100%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#miniLine
+{
+    width: 42px;
+    height: 32px;
+    position: absolute;
+    top:78px;
+    left: 154px;
+}
+
+#line1
+{
+    top: 520px;
+    right: 0px;
+    position: absolute;
+    width: 1100px;
+    height: 30px;
+}
+
+#outLocation
+{
+    top: 60px;
+    left: 192px;
+}
+
+
+#outLocation a
+{
+   text-decoration: none;
+   color: black;
+}
+
+#idTransaction
+{
+    top: 150px;
+    left: 58px;
+}
+
+#outTransanction
+{
+    top: 194px;
+    left: 58px;
+    cursor: pointer;
+}
+
+#idDate
+{
+    top: 264px;
+    left: 58px;
+}
+
+#outDate
+{
+    top: 308px;
+    left: 58px
+}
+
+#idTime
+{
+    top: 260px;
+    left: 240px;
+}
+
+#outTime
+{
+    top: 308px;
+    left: 240px;
+}
+
+#idSeats
+{
+    top: 378px;
+    left: 58px;
+}
+
+#outSeats
+{
+    top: 422px;
+    left: 60px;
+}
+
+#idStudio
+{
+    top: 378px;
+    left: 240px;
+}
+
+#outStudio
+{
+    top: 422px;
+    left: 240px;
+}
+
+#idTickets
+{
+    top: 378px;
+    left: 420px;
+}
+
+#outTickets
+{
+    top: 422px;
+    left: 420px;
+}
+
+#barcode
+{
+    position: absolute;
+    width: 347px;
+    height: 170px;
+    top: 628px;
+    left: 154px;
+    cursor: pointer;
+}
+
+#firstPrice
+{
+    position: absolute;
+    top: 624px;
+    left: 640px;
+}
+
+#outPrice1
+{
+    position: absolute;
+    top:624px;
+    left: 930px;
+}
+
+#lastPrice
+{
+    position: absolute;
+    top: 668px;
+    left: 640px;
+}
+
+#outPrice2
+{
+    position: absolute;
+    top:668px;
+    left: 930px;
+}
+
+#line2
+{
+    position: absolute;
+    width: 18px;
+    height: 530px;
+    top: 4px;
+    left: 630px;
+}
+
+#idName1
+{
+    top: 16px;
+    left: 690px;
+}
+
+#outName1
+{
+    top: 60px;
+    left: 690px
+}
+
+#idName2
+{
+    top: 16px;
+    left: 900px;
+}
+
+#outName2
+{
+    top: 60px;
+    left: 900px;
+}
+
+#idNumber
+{
+    top: 150px;
+    left: 690px;
+}
+
+#outNumber
+{
+    top: 198px;
+    left: 690px
+}
+
+#idBirth
+{
+    top: 150px;
+    left: 900px;
+}
+
+#outBirth
+{
+    top: 198px;
+    left: 900px
+}
+
+#email
+{
+    top: 264px;
+    left: 690px;
+}
+
+#outEmail
+{
+    top: 308px;
+    left: 690px
+}
+
+#idName2
+{
+    top: 16px;
+    left: 900px;
+}
+
+#outName2
+{
+    top: 60px;
+    left: 900px;
+}
+
+#idCity
+{
+    top: 378px;
+    left: 690px;
+}
+
+#outCity
+{
+    top: 422px;
+    left: 690px
+}
+
+#idCountry
+{
+    top: 378px;
+    left: 900px;
+}
+
+#outCountry
+{
+    top: 422px;
+    left: 900px
+}
+
+#print
+{
+    position: absolute;
+    padding: 14px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-family: "Poppins Medium";
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #FD9C43;
+    top: 784px;
+    left: 650px;
+    color:white;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media print {
+    body {
+      zoom: 70%;
+    }
+  }

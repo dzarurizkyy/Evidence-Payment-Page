@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movtix</title>
+        <link rel="icon" type="image/x-icon" href="Images/Movtix Logo.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+          <table cellspacing="8px">
+              <tr>
+                  <td>
+                      <img id="logo" src="Images/Movtix Logo.png">
+                    </td>
+                    <td class="navbar1">MOVTIX</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td class="delete">Empty Text</td>
+                    <td id="titleBar" class="navbar2">
+                        Now Playing
+                    </td>
+                    <td class="navbar2">TV Series</td>
+                    <td class="navbar2">Cinemas</td>
+              </tr>
+          </table>
+        </div>
+
+        <div id="section">
+            <p id="title1">Book Order</p>
+            <img id="leftArrow" src="Images/Arrow Left.png">
+            <p id="subtitle1">
+                Homepage / Now Playing / Payment
+            </p>
+        </div>
+
+        <div id="thumbnail">
+            <img id="beast" src="UI Design/Cover Thumbnail Movies.png">
+            <p id="titleMovies">BEAST(2022)</p>
+            <table>
+                <tr>
+                    <td>
+                        <img id="rate1" class="rate"src="Images/Star.png">
+                    </td>
+                    <td>
+                        <img id="rate2"class="rate" src="Images/Star.png">
+                    </td>
+                    <td>
+                        <img id="rate3" class="rate" src="Images/Star.png">
+                    </td>
+                    <td>
+                        <img id="rate4" class="rate" src="Images/Star.png">
+                    </td>
+                    <td id="titleRate">4/5(200)</td>
+                </tr>
+            </table>
+            <p id="director">
+                Director : Baltasar Kormákur
+            </p>
+        </div>
+
+        <div id="content">
+            <img id="backgroundForm" src="UI Design/Background Form.png">
+            <img id="cinemaLogo" src="Images/XXI Logo.png">
+            <p id="cinemaLocation" class="formInput">
+                Your Cinema Location
+            </p>
+            <img id="miniLine" src="UI Design/Line.png">
+            <p id="outLocation"class="formOutput">
+                <a href="https://goo.gl/maps/kVkxLUSVp6MMJwHs6" target="_blank">
+                    Pakuwon City XXI, Surabaya
+                </a>
+            </p>
+            <p id="idTransaction" class="formInput">
+                Transaction Ref
+            </p>
+            <p id="outTransanction"class="formOutput" onclick="changeColor()"">
+                3CW14925GC7153148
+            </p>
+            <p id="idDate" class="formInput">
+                Date
+            </p>
+            <p id="outDate" class="formOutput">
+                18/7/2022
+            </p>
+            <p id="idTime" class="formInput">
+                Time
+            </p>
+            <p id="outTime" class="formOutput">
+                20.00 WIB
+            </p>
+            <p id="idSeats" class="formInput">
+                Seats
+            </p>
+            <p id="outSeats" class="formOutput">
+                IIIB
+            </p>
+            <p id="idStudio" class="formInput">
+                Studio
+            </p>
+            <p id="outStudio" class="formOutput">
+                3
+            </p>
+            <p id="idTickets" class="formInput">
+                Total Tickets
+            </p>
+            <p id="outTickets" class="formOutput">
+                1
+            </p>
+
+            <img id="line1"src="UI Design/Horizontal Line.png">
+
+            <img id="line2" src="UI Design/Line.png">
+
+            <div id="userData">
+                <p id="idName1" class="formInput">
+                    Front Name
+                </p>
+                <p id="outName1" class="formOutput">
+                    Joko 
+                </p>
+                <p id="idName2" class="formInput">
+                    Behind Name
+                </p>
+                <p id="outName2" class="formOutput">
+                    Anwar
+                </p>
+                <p id="idNumber" class="formInput">
+                    Phone Number
+                </p>
+                <p id="outNumber" class="formOutput">
+                    081223334444
+                </p>
+    
+                <p id="idBirth" class="formInput">
+                    Date Of Birth
+                </p>
+                <p id="outBirth" class="formOutput">
+                    1 January 1991
+                </p>
+                <p id="email" class="formInput">
+                    Email
+                </p>
+                <p id="outEmail" class="formOutput">
+                    jokoanwarbusiness@gmail.com
+                </p>
+                <p id="idCity" class="formInput">
+                    City
+                </p>
+                <p id="outCity" class="formOutput">
+                    Surabaya
+                </p>
+    
+                <p id="idCountry" class="formInput">
+                    Country
+                </p>
+                <p id="outCountry" class="formOutput">
+                    Indonesia
+                </p>    
+            </div>
+
+            <div id="onlinePayment">
+                <a href="https://w7.pngwing.com/pngs/808/892/png-transparent-international-article-number-barcode-code-128-universal-product-code-others-text-rectangle-monochrome.png" target="_blank">
+                    <img id="barcode"src="Images/Barcode Scanner.png">
+                </a>
+        
+                <p id="firstPrice" class="formOutput">
+                    Total Price
+                </p>
+                <p id="outPrice1" class="formOutput">
+                    Rp40.000,00
+                </p>
+                <p id="lastPrice" class="formOutput">
+                    Total After Discount
+                </p>
+                <p id="outPrice2" class="formOutput">
+                    Rp35.000,00
+                </p>
+            </div>
+
+            <button id="print" type="button" onclick="printPage()">
+                Print Order Details
+            </button>
+        </div>
+
+        <script src="effect.js"></script>
+    </body>
+</html>  
